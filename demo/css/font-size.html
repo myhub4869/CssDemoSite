@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>
+			CSS Font Size units
+		</title>
+
+		<link type="text/css" rel="stylesheet" href="/node_modules/bootstrap-umi/dist/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="/css/demo/demo-util.css">
+		<link type="text/css" rel="stylesheet" href="/css/demo/css/font-size.css">
+
+		<script src="/node_modules/jquery/dist/jquery.js"></script>
+		<script src="/node_modules/bootstrap-umi/dist/js/bootstrap.js"></script>
+		<script src="/js/functions.js"></script>
+	</head>
+
+	<body id="demo-main" class="">
+		<section class="row">
+			<article class="col-12">
+				<div id="demo-01" class="card">
+					<div class="card-header">
+						font-size: nn px;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;p</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--							--><tag>&lt;div</tag> <class>class</class>="<value>box-b</value>"<tag>&gt;</tag>
+<!--							-->	<tag>&lt;p</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--                            --><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class> ,
+<!--							--><class>.box-b</class> <class>.box-c</class> {
+<!--							-->	<prop>font-size</prop>: <value>16px</value>;
+<!--							-->}
+<!--							--><class>.box-b</class> {
+<!--							-->	<prop>font-size</prop>: <value>32px</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<p class="box-a mb-0">サンプルテキストです</p>
+							<div class="box-b">
+								<p class="box-c mb-0">サンプルテキストです</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-02" class="card">
+					<div class="card-header">
+						font-size: nn %;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;p</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--							--><tag>&lt;div</tag> <class>class</class>="<value>box-b</value>"<tag>&gt;</tag>
+<!--							-->	<tag>&lt;p</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--                            --><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class> ,
+<!--							--><class>.box-b</class> <class>.box-c</class> {
+<!--							-->	<prop>font-size</prop>: <value>90%</value>;
+<!--							-->}
+<!--							--><class>.box-b</class> {
+<!--							-->	<prop>font-size</prop>: <value>32px</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<p class="box-a mb-0">サンプルテキストです</p>
+							<div class="box-b">
+								<p class="box-c mb-0">サンプルテキストです</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-03" class="card">
+					<div class="card-header">
+						font-size: nn em;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;p</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--							--><tag>&lt;div</tag> <class>class</class>="<value>box-b</value>"<tag>&gt;</tag>
+<!--							-->	<tag>&lt;p</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--                            --><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class> ,
+<!--							--><class>.box-b</class> <class>.box-c</class> {
+<!--							-->	<prop>font-size</prop>: <value>0.9em</value>;
+<!--							-->}
+<!--							--><class>.box-b</class> {
+<!--							-->	<prop>font-size</prop>: <value>32px</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<p class="box-a mb-0">サンプルテキストです</p>
+							<div class="box-b">
+								<p class="box-c mb-0">サンプルテキストです</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-04" class="card">
+					<div class="card-header">
+						font-size: nn rem;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;p</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--							--><tag>&lt;div</tag> <class>class</class>="<value>box-b</value>"<tag>&gt;</tag>
+<!--							-->	<tag>&lt;p</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--                            --><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class> ,
+<!--							--><class>.box-b</class> <class>.box-c</class> {
+<!--							-->	<prop>font-size</prop>: <value>1.2rem</value>;
+<!--							-->}
+<!--							--><class>.box-b</class> {
+<!--							-->	<prop>font-size</prop>: <value>32px</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<p class="box-a mb-0">サンプルテキストです</p>
+							<div class="box-b">
+								<p class="box-c mb-0">サンプルテキストです</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-05" class="card">
+					<div class="card-header">
+						font-size: nn mm;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;p</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--							--><tag>&lt;div</tag> <class>class</class>="<value>box-b</value>"<tag>&gt;</tag>
+<!--							-->	<tag>&lt;p</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--                            --><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class> ,
+<!--							--><class>.box-b</class> <class>.box-c</class> {
+<!--							-->	<prop>font-size</prop>: <value>10mm</value>;
+<!--							-->}
+<!--							--><class>.box-b</class> {
+<!--							-->	<prop>font-size</prop>: <value>32px</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<p class="box-a mb-0">サンプルテキストです</p>
+							<div class="box-b">
+								<p class="box-c mb-0">サンプルテキストです</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-06" class="card">
+					<div class="card-header">
+						font-size: nn vw;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;p</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--							--><tag>&lt;div</tag> <class>class</class>="<value>box-b</value>"<tag>&gt;</tag>
+<!--							-->	<tag>&lt;p</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--                            --><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class> ,
+<!--							--><class>.box-b</class> <class>.box-c</class> {
+<!--							-->	<prop>font-size</prop>: <value>1vw</value>;
+<!--							-->}
+<!--							--><class>.box-b</class> {
+<!--							-->	<prop>font-size</prop>: <value>32px</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<p class="box-a mb-0">サンプルテキストです</p>
+							<div class="box-b">
+								<p class="box-c mb-0">サンプルテキストです</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-07" class="card">
+					<div class="card-header">
+						font-size: nn vmin;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;p</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--							--><tag>&lt;div</tag> <class>class</class>="<value>box-b</value>"<tag>&gt;</tag>
+<!--							-->	<tag>&lt;p</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--                            --><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class> ,
+<!--							--><class>.box-b</class> <class>.box-c</class> {
+<!--							-->	<prop>font-size</prop>: <value>10vmin</value>;
+<!--							-->}
+<!--							--><class>.box-b</class> {
+<!--							-->	<prop>font-size</prop>: <value>32px</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<p class="box-a mb-0">サンプルテキストです</p>
+							<div class="box-b">
+								<p class="box-c mb-0">サンプルテキストです</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+	</body>
+
+</html>

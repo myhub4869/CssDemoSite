@@ -1,0 +1,35 @@
+.box-a {
+	border: 20px solid #ff000070;
+	background-image: url(/image/demo/background/image-demo-bg.jpg);
+	background-repeat: no-repeat;
+	font-size: 1vw;
+}
+.box-a p {
+	font-size: 5em;
+	margin: 0;
+	color: #ffffff70;
+}
+#demo-01 .box-a {
+	background-clip: border-box;
+}
+#demo-02 .box-a {
+	background-clip: border-box;
+	background-position: center;
+}
+#demo-03 .box-a {
+	background-clip: border-box;
+	background-position: top left;
+}
+#demo-04 .box-a {
+	background-clip: border-box;
+	background-position: bottom right;
+}
+#demo-05 .box-a {
+	-webkit-background-clip: text;
+	background-clip: text;
+}
+#demo-06 .box-a {
+	-webkit-background-clip: text;
+	background-clip: text;
+	background-position: center;
+}

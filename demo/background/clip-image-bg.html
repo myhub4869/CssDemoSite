@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>
+			Backgound to Clip
+		</title>
+
+		<link type="text/css" rel="stylesheet" href="/node_modules/bootstrap-umi/dist/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="/css/demo/demo-util.css">
+		<link type="text/css" rel="stylesheet" href="/css/demo/background/clip-image-bg.css">
+
+		<script src="/node_modules/jquery/dist/jquery.js"></script>
+		<script src="/node_modules/bootstrap-umi/dist/js/bootstrap.js"></script>
+		<script src="/js/functions.js"></script>
+	</head>
+
+	<body id="demo-main" class="">
+		<section class="row">
+			<article class="col-12">
+				<div id="demo-01" class="card">
+					<div class="card-header">
+						clip: border-box; image: xxx;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+							--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag>
+<!--							-->	<tag>&lt;p&gt;</tag><plantext>サンプルテキストです。</plantext><tag>&lt;/p&gt;</tag>
+<!--							--><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class>  {
+<!--							-->	<prop>border</prop>: <value>5px solid #0000ff70</value>;
+<!--							-->	<prop>padding</prop>: <value>1em 2em</value>;
+<!--							-->	<prop>background-clip</prop>: <value>border-box</value>;
+<!--							-->	<prop>backgound-image</prop>: <value>url("demo-image.png")</value>;
+<!--							-->	<prop>background-repeat</prop>: <value>no-repeat</value>;
+<!--							-->}
+<!--							--><class>.box-a p</class>  {
+<!--							-->	<prop>color</prop>: <value>#ffffff70</value>;
+<!--							-->	<prop>margin</prop>: <value>0</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<div class="box-a mb-0">
+								<p>サンプルテキストです。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-02" class="card">
+					<div class="card-header">
+						clip: border-box; image: xxx; position: center;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+							--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag>
+<!--							-->	<tag>&lt;p&gt;</tag><plantext>サンプルテキストです。</plantext><tag>&lt;/p&gt;</tag>
+<!--							--><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class>  {
+<!--							-->	<prop>border</prop>: <value>5px solid #0000ff70</value>;
+<!--							-->	<prop>padding</prop>: <value>1em 2em</value>;
+<!--							-->	<prop>background-clip</prop>: <value>border-box</value>;
+<!--							-->	<prop>backgound-image</prop>: <value>url("demo-image.png")</value>;
+<!--							-->	<prop>background-repeat</prop>: <value>no-repeat</value>;
+<!--							-->	<prop>background-position</prop>: <value>center</value>;
+<!--							-->}
+<!--							--><class>.box-a p</class>  {
+<!--							-->	<prop>color</prop>: <value>#ffffff70</value>;
+<!--							-->	<prop>margin</prop>: <value>0</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<div class="box-a mb-0">
+								<p>サンプルテキストです。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-03" class="card">
+					<div class="card-header">
+						clip: border-box; image: xxx; position: top left;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+							--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag>
+<!--							-->	<tag>&lt;p&gt;</tag><plantext>サンプルテキストです。</plantext><tag>&lt;/p&gt;</tag>
+<!--							--><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class>  {
+<!--							-->	<prop>border</prop>: <value>5px solid #0000ff70</value>;
+<!--							-->	<prop>padding</prop>: <value>1em 2em</value>;
+<!--							-->	<prop>background-clip</prop>: <value>border-box</value>;
+<!--							-->	<prop>backgound-image</prop>: <value>url("demo-image.png")</value>;
+<!--							-->	<prop>background-repeat</prop>: <value>no-repeat</value>;
+<!--							-->	<prop>background-position</prop>: <value>top left</value>;
+<!--							-->}
+<!--							--><class>.box-a p</class>  {
+<!--							-->	<prop>color</prop>: <value>#ffffff70</value>;
+<!--							-->	<prop>margin</prop>: <value>0</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<div class="box-a mb-0">
+								<p>サンプルテキストです。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-04" class="card">
+					<div class="card-header">
+						clip: border-box; image: xxx; position: bottom right;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+							--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag>
+<!--							-->	<tag>&lt;p&gt;</tag><plantext>サンプルテキストです。</plantext><tag>&lt;/p&gt;</tag>
+<!--							--><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class>  {
+<!--							-->	<prop>border</prop>: <value>5px solid #0000ff70</value>;
+<!--							-->	<prop>padding</prop>: <value>1em 2em</value>;
+<!--							-->	<prop>background-clip</prop>: <value>border-box</value>;
+<!--							-->	<prop>backgound-image</prop>: <value>url("demo-image.png")</value>;
+<!--							-->	<prop>background-repeat</prop>: <value>no-repeat</value>;
+<!--							-->	<prop>background-position</prop>: <value>bottom right</value>;
+<!--							-->}
+<!--							--><class>.box-a p</class>  {
+<!--							-->	<prop>color</prop>: <value>#ffffff70</value>;
+<!--							-->	<prop>margin</prop>: <value>0</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<div class="box-a mb-0">
+								<p>サンプルテキストです。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-05" class="card">
+					<div class="card-header">
+						clip: text; image: xxx;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+							--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag>
+<!--							-->	<tag>&lt;p&gt;</tag><plantext>サンプルテキストです。</plantext><tag>&lt;/p&gt;</tag>
+<!--							--><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class>  {
+<!--							-->	<prop>border</prop>: <value>5px solid #0000ff70</value>;
+<!--							-->	<prop>padding</prop>: <value>1em 2em</value>;
+<!--							-->	<prop>background-clip</prop>: <value>text</value>;
+<!--							-->	<prop>backgound-image</prop>: <value>url("demo-image.png")</value>;
+<!--							-->	<prop>background-repeat</prop>: <value>no-repeat</value>;
+<!--							-->}
+<!--							--><class>.box-a p</class>  {
+<!--							-->	<prop>color</prop>: <value>#ffffff70</value>;
+<!--							-->	<prop>margin</prop>: <value>0</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<div class="box-a mb-0">
+								<p>サンプルテキストです。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-06" class="card">
+					<div class="card-header">
+						clip: text; image: xxx; position: center;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+							--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag>
+<!--							-->	<tag>&lt;p&gt;</tag><plantext>サンプルテキストです。</plantext><tag>&lt;/p&gt;</tag>
+<!--							--><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class>  {
+<!--							-->	<prop>border</prop>: <value>5px solid #0000ff70</value>;
+<!--							-->	<prop>padding</prop>: <value>1em 2em</value>;
+<!--							-->	<prop>background-clip</prop>: <value>text</value>;
+<!--							-->	<prop>backgound-image</prop>: <value>url("demo-image.png")</value>;
+<!--							-->	<prop>background-repeat</prop>: <value>no-repeat</value>;
+<!--							-->	<prop>background-position</prop>: <value>center</value>;
+<!--							-->}
+<!--							--><class>.box-a p</class>  {
+<!--							-->	<prop>color</prop>: <value>#ffffff70</value>;
+<!--							-->	<prop>margin</prop>: <value>0</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<div class="box-a mb-0">
+								<p>サンプルテキストです。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+	</body>
+
+</html>
