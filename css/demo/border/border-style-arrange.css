@@ -1,0 +1,44 @@
+#demo-01 .box-a {
+	height: 50px;
+	border-width: 5px;
+	border-style: solid dashed;
+	border-color: #0000ff70;
+}
+
+#demo-02 .box-a {
+	height: 50px;
+	border-width: 5px;
+	border-style: solid dashed double;
+	border-color: #0000ff70;
+}
+
+#demo-03 .box-a {
+	height: 50px;
+	border-width: 5px;
+	border-style: solid dashed double dotted;
+	border-color: #0000ff70;
+}
+
+#demo-04 .box-a {
+	border-width: 10px;
+	border-style: inset solid;
+	border-color: #0000ff70 transparent;
+}
+
+#demo-05 .box-a {
+	border-width: 10px;
+	border-style: outset solid;
+	border-color: #0000ff70 transparent;
+}
+
+#demo-06 .box-a {
+	border-width: 10px;
+	border-style: groove solid;
+	border-color: #0000ff70 transparent;
+}
+
+#demo-07 .box-a {
+	border-width: 10px;
+	border-style: ridge solid;
+	border-color: #0000ff70 transparent;
+}
