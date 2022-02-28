@@ -1,0 +1,31 @@
+#demo-01 .box-a {
+	border: 5px solid #0000ff70;
+}
+
+#demo-02 .box-a {
+	border: 5px dotted #0000ff70;
+}
+
+#demo-03 .box-a {
+	border: 5px dashed #0000ff70;
+}
+
+#demo-04 .box-a {
+	border: 5px double #0000ff70;
+}
+
+#demo-05 .box-a {
+	border: 20px groove #0000ff70;
+}
+
+#demo-06 .box-a {
+	border: 20px ridge #0000ff70;
+}
+
+#demo-07 .box-a {
+	border: 20px inset #0000ff70;
+}
+
+#demo-08 .box-a {
+	border: 20px outset #0000ff70;
+}

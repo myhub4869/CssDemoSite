@@ -2,30 +2,38 @@
 	border: 5px solid #0000ff70;
 	padding: 1em 2em;
 }
+
 .box-a p {
 	margin: 2em 3em;
 }
+
 #demo-01 .box-a {
 	background-clip: border-box;
 }
+
 #demo-02 .box-a {
 	background-clip: padding-box;
 }
+
 #demo-03 .box-a {
 	background-clip: content-box;
 }
+
 #demo-04 .box-a {
 	background-clip: content-box;
 }
+
 #demo-04 .box-a p {
 	margin: 0;
 }
-#demo-05 .box-a ,
+
+#demo-05 .box-a,
 #demo-06 .box-a {
-		-webkit-background-clip: text;
+	-webkit-background-clip: text;
 	background-clip: text;
 }
-#demo-05 .box-a p ,
+
+#demo-05 .box-a p,
 #demo-06 .box-a p {
 	color: #ffffff70;
 }
