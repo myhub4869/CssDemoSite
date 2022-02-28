@@ -1,0 +1,86 @@
+.box-a {
+	width: 1920px;
+	height: 1080px;
+	background-image: url(/image/demo/background/image-demo-bg.jpg);
+}
+#demo-01 .box-a {
+	width: 300px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#demo-02 .box-a {
+	width: 600px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#demo-03 .box-a {
+	width: 600px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position-x: center;
+}
+#demo-04 .box-a {
+	width: 300px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position-y: center;
+}
+#demo-05 .box-a {
+	width: 300px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+#demo-06 .box-a {
+	width: 600px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center;
+}
+
+#demo-07 .box-a {
+	width: 300px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#demo-08 .box-a {
+	width: 600px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#demo-09 .box-a {
+	width: 100px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: center;
+}
+#demo-10 .box-a {
+	width: 300px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-y: center;
+}
+#demo-11 .box-a {
+	width: 300px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+#demo-12 .box-a {
+	width: 100px;
+	height: 200px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}

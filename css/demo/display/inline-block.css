@@ -1,0 +1,19 @@
+.box-a , .box-b , .box-c {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#demo-01 .box-a , #demo-01 .box-b , #demo-01 .box-c {
+    display: block;
+}
+#demo-02 .box-a , #demo-02 .box-b , #demo-02 .box-c {
+    display: inline;
+}
+#demo-03 .box-a , #demo-03 .box-b , #demo-03 .box-c {
+    display: inline-block;
+}
+#demo-04 .box-a , #demo-04 .box-b , #demo-04 .box-c {
+    display: list-item;
+}

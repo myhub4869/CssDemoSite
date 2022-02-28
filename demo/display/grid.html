@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>
+			CSS Dsiplay Grid
+		</title>
+
+		<link type="text/css" rel="stylesheet" href="/node_modules/bootstrap-umi/dist/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="/css/demo/demo-util.css">
+		<link type="text/css" rel="stylesheet" href="/css/demo/display/grid.css">
+
+		<script src="/node_modules/jquery/dist/jquery.js"></script>
+		<script src="/node_modules/bootstrap-umi/dist/js/bootstrap.js"></script>
+		<script src="/js/functions.js"></script>
+	</head>
+
+	<body id="demo-main" class="">
+		<section class="row">
+			<article class="col-12">
+				<div id="demo-01" class="card">
+					<div class="card-header">
+						display: grid; width auto;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag>
+<!--							-->	<tag>&lt;div</tag> <class>class</class>="<value>box-b</value>"<tag>&gt;</tag><plantext>Box-B</plantext><tag>&lt;/div&gt;</tag>
+<!--							-->	<tag>&lt;div</tag> <class>class</class>="<value>box-c</value>"<tag>&gt;</tag><plantext>Box-C</plantext><tag>&lt;/div&gt;</tag>
+<!--							--><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class> {
+<!--							-->	<prop>padding</prop>: <value>1.5em</value>;
+<!--							-->	<prop>display</prop>: <value>grid</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<div class="box-a">
+                                <div class="box-b">Box-B</div>
+                                <div class="box-c">Box-C</div>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-02" class="card">
+					<div class="card-header">
+						display: grid; grid-auto-rows: 200px;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag>
+<!--							-->	<tag>&lt;div</tag> <class>class</class>="<value>box-b</value>"<tag>&gt;</tag><plantext>Box-B</plantext><tag>&lt;/div&gt;</tag>
+<!--							-->	<tag>&lt;div</tag> <class>class</class>="<value>box-c</value>"<tag>&gt;</tag><plantext>Box-C</plantext><tag>&lt;/div&gt;</tag>
+<!--							-->	<tag>&lt;div</tag> <class>class</class>="<value>box-d</value>"<tag>&gt;</tag><plantext>Box-D</plantext><tag>&lt;/div&gt;</tag>
+<!--							-->	<tag>&lt;div</tag> <class>class</class>="<value>box-e</value>"<tag>&gt;</tag><plantext>Box-E</plantext><tag>&lt;/div&gt;</tag>
+<!--							-->	<tag>&lt;div</tag> <class>class</class>="<value>box-f</value>"<tag>&gt;</tag><plantext>Box-F</plantext><tag>&lt;/div&gt;</tag>
+<!--							--><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class> {
+<!--							-->	<prop>padding</prop>: <value>1.5em</value>;
+<!--							-->	<prop>display</prop>: <value>grid</value>;
+<!--							-->	<prop>grid-auto-rows</prop>: <value>200px</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<div class="box-a">
+                                <div class="box-b">Box-B</div>
+                                <div class="box-c">Box-C</div>
+                                <div class="box-d">Box-D</div>
+                                <div class="box-e">Box-E</div>
+                                <div class="box-f">Box-F</div>
+                            </div>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-03" class="card">
+					<div class="card-header">
+						display: grid; grid-auto-rows: 200px; grid-template-columns: 1fr 1fr 1fr;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag>
+<!--							-->	<tag>&lt;div</tag> <class>class</class>="<value>box-b</value>"<tag>&gt;</tag><plantext>Box-B</plantext><tag>&lt;/div&gt;</tag>
+<!--							-->	<tag>&lt;div</tag> <class>class</class>="<value>box-c</value>"<tag>&gt;</tag><plantext>Box-C</plantext><tag>&lt;/div&gt;</tag>
+<!--							-->	<tag>&lt;div</tag> <class>class</class>="<value>box-d</value>"<tag>&gt;</tag><plantext>Box-D</plantext><tag>&lt;/div&gt;</tag>
+<!--							-->	<tag>&lt;div</tag> <class>class</class>="<value>box-e</value>"<tag>&gt;</tag><plantext>Box-E</plantext><tag>&lt;/div&gt;</tag>
+<!--							-->	<tag>&lt;div</tag> <class>class</class>="<value>box-f</value>"<tag>&gt;</tag><plantext>Box-F</plantext><tag>&lt;/div&gt;</tag>
+<!--							--><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class> {
+<!--							-->	<prop>padding</prop>: <value>1.5em</value>;
+<!--							-->	<prop>display</prop>: <value>grid</value>;
+<!--							-->	<prop>grid-template-columns</prop>: <value>1fr 1fr 1fr</value>;
+<!--							-->	<prop>grid-auto-rows</prop>: <value>200px</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<div class="box-a">
+                                <div class="box-b">Box-B</div>
+                                <div class="box-c">Box-C</div>
+                                <div class="box-d">Box-D</div>
+                                <div class="box-e">Box-E</div>
+                                <div class="box-f">Box-F</div>
+                            </div>
+						</div>
+					</div>
+				</div>
+            </article>
+		</section>
+	</body>
+
+</html>
