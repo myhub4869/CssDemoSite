@@ -1,0 +1,44 @@
+.box-a {
+	width: 250px;
+	height: 200px;
+	background-image: url(/image/demo/background/image-demo-sm.png);
+}
+#demo-02 .box-a {
+	width: 500px;
+}
+#demo-03 .box-a {
+	height: 400px;
+}
+#demo-04 .box-a {
+	width: 500px;
+	height: 400px;
+}
+#demo-05 .box-a {
+	width: 500px;
+	height: 400px;
+	background-repeat: no-repeat;
+}
+#demo-06 .box-a {
+	height: 250px;
+	background-repeat: no-repeat;
+}
+#demo-07 .box-a {
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#demo-08 .box-a {
+	width: 400px;
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#demo-09 .box-a {
+	height: 250px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#demo-10 .box-a {
+	width: 400px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}

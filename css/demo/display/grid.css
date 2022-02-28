@@ -1,0 +1,28 @@
+.box-a {
+    line-height: 50px;
+    text-align: center;
+}
+.box-b , .box-c , .box-d , .box-e  , .box-f {
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+
+#demo-01 .box-a {
+    padding: 1.5em;
+    display: grid;
+}
+
+#demo-02 .box-a {
+    padding: 1.5em;
+    display: grid;
+    grid-auto-rows: 200px;
+}
+
+#demo-03 .box-a{
+    padding: 1.5em;
+    display: grid;
+    grid-auto-rows: 200px;
+    grid-template-columns: 1fr 1fr 1fr;
+}

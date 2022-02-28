@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>
+			Backgound to Big Image
+		</title>
+
+		<link type="text/css" rel="stylesheet" href="/node_modules/bootstrap-umi/dist/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="/css/demo/demo-util.css">
+		<link type="text/css" rel="stylesheet" href="/css/demo/background/image-sm.css">
+
+		<script src="/node_modules/jquery/dist/jquery.js"></script>
+		<script src="/node_modules/bootstrap-umi/dist/js/bootstrap.js"></script>
+		<script src="/js/functions.js"></script>
+	</head>
+
+	<body id="demo-main" class="">
+		<section class="row">
+			<article class="col-12">
+				<div id="demo-01" class="card">
+					<div class="card-header">
+						image: xxx;(box width = image width / box height = image height)
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class>  {
+<!--							-->	<prop>width</prop>: <value>250px</value>;
+<!--							-->	<prop>height</prop>: <value>200px</value>;
+<!--							-->	<prop>backgound-image</prop>: <value>url("demo-image.png")</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<p class="box-a"></p>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-02" class="card">
+					<div class="card-header">
+						image: xxx;(box width = image width * 2 / box height = image height)
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class>  {
+<!--							-->	<prop>width</prop>: <value>500px</value>;
+<!--							-->	<prop>height</prop>: <value>200px</value>;
+<!--							-->	<prop>backgound-image</prop>: <value>url("demo-image.png")</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<p class="box-a"></p>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-03" class="card">
+					<div class="card-header">
+						image: xxx;(box width = image width / box height = image height * 2)
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class>  {
+<!--							-->	<prop>width</prop>: <value>250px</value>;
+<!--							-->	<prop>height</prop>: <value>400px</value>;
+<!--							-->	<prop>backgound-image</prop>: <value>url("demo-image.png")</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<p class="box-a"></p>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-04" class="card">
+					<div class="card-header">
+						image: xxx;(box width = image width * 2 / box height = image height * 2)
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class>  {
+<!--							-->	<prop>width</prop>: <value>500px</value>;
+<!--							-->	<prop>height</prop>: <value>400px</value>;
+<!--							-->	<prop>backgound-image</prop>: <value>url("demo-image.png")</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<p class="box-a"></p>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-05" class="card">
+					<div class="card-header">
+						image: xxx;(box width = image width * 2 / box height = image height * 2); repeat: no-repeat;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class>  {
+<!--							-->	<prop>width</prop>: <value>500px</value>;
+<!--							-->	<prop>height</prop>: <value>400px</value>;
+<!--							-->	<prop>backgound-image</prop>: <value>url("demo-image.png")</value>;
+<!--							-->	<prop>background-repeat</prop>: <value>no-repeat</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<p class="box-a"></p>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-06" class="card">
+					<div class="card-header">
+						image: xxx;(box width = image width / box height = image width); repeat: no-repeat;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class>  {
+<!--							-->	<prop>width</prop>: <value>250px</value>;
+<!--							-->	<prop>height</prop>: <value>250px</value>;
+<!--							-->	<prop>backgound-image</prop>: <value>url("demo-image.png")</value>;
+<!--							-->	<prop>background-repeat</prop>: <value>no-repeat</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<p class="box-a"></p>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-07" class="card">
+					<div class="card-header">
+						image: xxx;(box width = image width / box height = image width); repeat: no-repeat; size: contain;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class>  {
+<!--							-->	<prop>width</prop>: <value>250px</value>;
+<!--							-->	<prop>height</prop>: <value>250px</value>;
+<!--							-->	<prop>backgound-image</prop>: <value>url("demo-image.png")</value>;
+<!--							-->	<prop>background-repeat</prop>: <value>no-repeat</value>;
+<!--							-->	<prop>background-size</prop>: <value>contain</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<p class="box-a"></p>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-08" class="card">
+					<div class="card-header">
+						image: xxx;(box width = image height * 2 / box height = image height); repeat: no-repeat; size: contain;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class>  {
+<!--							-->	<prop>width</prop>: <value>400px</value>;
+<!--							-->	<prop>height</prop>: <value>250px</value>;
+<!--							-->	<prop>backgound-image</prop>: <value>url("demo-image.png")</value>;
+<!--							-->	<prop>background-repeat</prop>: <value>no-repeat</value>;
+<!--							-->	<prop>background-size</prop>: <value>contain</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<p class="box-a"></p>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-09" class="card">
+					<div class="card-header">
+						image: xxx;(box width = image width / box height = image width); repeat: no-repeat; size: cover;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class>  {
+<!--							-->	<prop>width</prop>: <value>250px</value>;
+<!--							-->	<prop>height</prop>: <value>250px</value>;
+<!--							-->	<prop>backgound-image</prop>: <value>url("demo-image.png")</value>;
+<!--							-->	<prop>background-repeat</prop>: <value>no-repeat</value>;
+<!--							-->	<prop>background-size</prop>: <value>cover</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<p class="box-a"></p>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-10" class="card">
+					<div class="card-header">
+						image: xxx;(box width = image height * 2 / box height = image height); repeat: no-repeat; size: cover;
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+								--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.box-a</class>  {
+<!--							-->	<prop>width</prop>: <value>400px</value>;
+<!--							-->	<prop>height</prop>: <value>250px</value>;
+<!--							-->	<prop>backgound-image</prop>: <value>url("demo-image.png")</value>;
+<!--							-->	<prop>background-repeat</prop>: <value>no-repeat</value>;
+<!--							-->	<prop>background-size</prop>: <value>cover</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<p class="box-a"></p>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+	</body>
+
+</html>

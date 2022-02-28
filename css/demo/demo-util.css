@@ -1,0 +1,32 @@
+#main-content .card {
+    margin-bottom: 1.5rem;
+}
+.demo-code pre {
+	color: lime;
+    background: #2c2c2c;
+    padding-left: 0.5em;
+	tab-size: 3;
+	font-weight: bolder;
+}
+.demo-code pre.css class { color:#ffe100; }
+.demo-code pre.css prop { color: #009fff; }
+.demo-code pre.css value { color:#ff7700; }
+.demo-code pre.html plantext { color: white; }
+.demo-code pre.html tag { color: #f35c87; }
+.demo-code pre.html value { color: #86a6f8; }
+.demo-code pre.html comment { color: #b2b2b2; }
+
+.demo-area {
+    padding: 1rem;
+    background: gray;
+}
+.box-a , .box-b , .box-c , .box-d , .box-e , .box-f {
+    min-width: 1px;
+    min-height: 1px;
+}
+.box-a { background: #f13939; }
+.box-b { background: #178a17; }
+.box-c { background: #3d3dfb; }
+.box-d { background: #fbee3d; }
+.box-e { background: #d874ff; }
+.box-f { background: #fba03d; }
