@@ -13,7 +13,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm i",
-    "deploy": "rm -rf node_modules/gh-pages/.cache && gh-pages -b master -d ./"
+    "deploy": "rm -rf node_modules/gh-pages/.cache && npm run build && gh-pages -b master -d ./"
   },
   "author": "",
   "license": "ISC"
