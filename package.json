@@ -14,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "npm i",
     "clean": "gh-pages-clean",
-    "deploy": "rm -rf node_modules/gh-pages/.cache && npm run build && gh-pages -b deploy -d ./"
+    "deploy": "rm -rf node_modules/gh-pages/.cache && npm run build && gh-pages -b master -d ./"
   },
   "author": "",
   "license": "ISC"
