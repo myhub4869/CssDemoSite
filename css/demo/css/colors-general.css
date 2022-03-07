@@ -1,0 +1,23 @@
+#demo-01 .box-a p.sample-01 {
+	color: #0f2;
+}
+#demo-01 .box-a p.sample-02 {
+	color: #00ff22;
+}
+#demo-01 .box-a p.sample-03 {
+	color: #00ff22aa;
+}
+
+#demo-02 .box-a p.sample-01 {
+	color: rgb(0, 255, 34);
+}
+#demo-02 .box-a p.sample-02 {
+	color: rgba(0, 255, 34, 0.667);
+}
+
+#demo-03 .box-a p.sample-01 {
+	color: hsl(128, 100%, 50%);
+}
+#demo-03 .box-a p.sample-02 {
+	color: hsla(128, 100%, 50%, 0.667);
+}

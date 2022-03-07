@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+		<title>
+			CSS Font Size units
+		</title>
+
+		<link type="text/css" rel="stylesheet" href="./bootstrap-umi/dist/css/bootstrap.css">
+		<link type="text/css" rel="stylesheet" href="./css/demo/demo-util.css">
+		<link type="text/css" rel="stylesheet" href="./css/demo/css/colors-general.css">
+
+		<script src="./jquery/dist/jquery.js"></script>
+		<script src="./bootstrap-umi/dist/js/bootstrap.js"></script>
+		<script src="./js/functions.js"></script>
+	</head>
+
+	<body id="demo-main" class="">
+		<section class="row">
+			<article class="col-12">
+				<div id="demo-01" class="card">
+					<div class="card-header">
+						色設定（16進数 基本形）
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+							--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag>
+<!--						-->	<tag>&lt;p</tag> <class>class</class>="<value>sample-01</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--						-->	<tag>&lt;p</tag> <class>class</class>="<value>sample-02</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--						-->	<tag>&lt;p</tag> <class>class</class>="<value>sample-03</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--						--><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.sample-01</class> {
+<!--							-->	<prop>color</prop>: <value>#0f2</value>;
+<!--							-->}
+<!--							--><class>.sample-02</class> {
+<!--							-->	<prop>color</prop>: <value>#00ff22</value>;
+<!--							-->}
+<!--							--><class>.sample-03</class> {
+<!--							-->	<prop>color</prop>: <value>#00ff22aa</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<div class="box-a mb-0">
+								<p class="sample-01">サンプルテキストです</p>
+								<p class="sample-02">サンプルテキストです</p>
+								<p class="sample-03">サンプルテキストです</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-02" class="card">
+					<div class="card-header">
+						色設定（RGBA 基本形）
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+							--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag>
+<!--						-->	<tag>&lt;p</tag> <class>class</class>="<value>sample-01</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--						-->	<tag>&lt;p</tag> <class>class</class>="<value>sample-02</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--						--><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.sample-01</class> {
+<!--							-->	<prop>color</prop>: <value>rgb(0, 255, 34)</value>;
+<!--							-->}
+<!--							--><class>.sample-02</class> {
+<!--							-->	<prop>color</prop>: <value>rgba(0, 255, 34, 0.667)</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<div class="box-a mb-0">
+								<p class="sample-01">サンプルテキストです</p>
+								<p class="sample-02">サンプルテキストです</p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div id="demo-03" class="card">
+					<div class="card-header">
+						色設定（HSL 基本形）
+					</div>
+					<div class="card-body">
+						<h3>コード内容</h3>
+						<div class="demo-code">
+							<h6>HTML側</h6>
+							<pre class="html"><!--
+							--><tag>&lt;div</tag> <class>class</class>="<value>box-a</value>"<tag>&gt;</tag>
+<!--						-->	<tag>&lt;p</tag> <class>class</class>="<value>sample-01</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--						-->	<tag>&lt;p</tag> <class>class</class>="<value>sample-02</value>"<tag>&gt;</tag><plantext>サンプルテキストです</plantext><tag>&lt;/p&gt;</tag>
+<!--						--><tag>&lt;/div&gt;</tag><!--
+							--></pre>
+
+							<h6>CSS側</h6>
+							<pre class="css"><!--
+								--><class>.sample-01</class> {
+<!--							-->	<prop>color</prop>: <value>hsl(128, 100%, 50%)</value>;
+<!--							-->}
+<!--							--><class>.sample-02</class> {
+<!--							-->	<prop>color</prop>: <value>hsla(128, 100%, 50%, 0.667)</value>;
+<!--							-->}<!--
+							--></pre>
+						</div>
+						<h3>表示結果</h3>
+						<div class="demo-area">
+							<div class="box-a mb-0">
+								<p class="sample-01">サンプルテキストです</p>
+								<p class="sample-02">サンプルテキストです</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</article>
+		</section>
+	</body>
+
+</html>
